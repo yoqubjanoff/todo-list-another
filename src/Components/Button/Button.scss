@@ -1,0 +1,32 @@
+.button{
+    border: none;
+    padding: 8px 15px;
+    background-color: #2cd634;
+    border-radius: 5px;
+    &.primary{
+        background-color: #00f;
+        color: #fff;
+        &.outlined{
+            background-color: transparent;
+            border: 2px solid #00f;
+            color: #00f;
+        }
+    }
+    &.danger{
+        background-color: #f00;
+        color: #fff;
+        &.outlined{
+            background-color: transparent;
+            border: 2px solid #f00;
+            color: #f00;
+        }
+    }
+    &.success{
+        background-color: #2cd634;
+        &.outlined{
+            background-color: transparent;
+            border: 2px solid #2cd634;
+            color: #2cd634;
+        }
+    }
+}
